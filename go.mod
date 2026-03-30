@@ -1,5 +1,7 @@
 module tangl.es/code/images
 
+go 1.26.1
+
 require (
 	cloud.google.com/go v0.26.0
 	github.com/denisbrodbeck/sqip v0.6.2-0.20180524153901-924d0e9baef0
@@ -21,12 +23,12 @@ require (
 	github.com/tdewolff/parse v2.3.3+incompatible // indirect
 	github.com/tdewolff/test v0.0.0-20171106182207-265427085153 // indirect
 	go.opencensus.io v0.15.0 // indirect
-	golang.org/x/image v0.0.0-20180708004352-c73c2afc3b81 // indirect
+	golang.org/x/image v0.38.0 // indirect
 	golang.org/x/net v0.0.0-20180826012351-8a410e7b638d // indirect
 	golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be // indirect
-	golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f // indirect
+	golang.org/x/sync v0.20.0 // indirect
 	golang.org/x/sys v0.1.0 // indirect
-	golang.org/x/text v0.3.0 // indirect
+	golang.org/x/text v0.35.0 // indirect
 	google.golang.org/api v0.0.0-20180831000444-b810576d88a0 // indirect
 	google.golang.org/appengine v1.1.0 // indirect
 	google.golang.org/genproto v0.0.0-20180831171423-11092d34479b // indirect
